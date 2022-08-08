@@ -2,7 +2,7 @@ name: Continuous Integrations using node.js
 
 on: 
   pull_request:
-    branches: [ master ]
+    branches: [ main ]
 
 jobs: 
   ci_to_master:
@@ -14,4 +14,3 @@ jobs:
       - run: npm test
       - run: npm run build
 
-      
