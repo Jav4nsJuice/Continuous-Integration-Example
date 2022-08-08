@@ -1,4 +1,4 @@
-const summary = require('./summary');
+const summary = require('./summary')
 
 test('2 + 5 = 7', () =>{
     expect(summary(2, 5)).toBe(7);
